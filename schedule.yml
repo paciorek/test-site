@@ -15,7 +15,7 @@
           id: "1"
           name: Lecture Participation 1
           href: "https://ds100.org/fa23/lecture/lec01"
-        - type: "Test"
+        - type: "Participation"
           id: "1"
           name: This is a non-linked test
     - date: "Aug 25"
