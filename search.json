@@ -25,7 +25,7 @@
     "href": "index.html#schedule",
     "title": "Statistics 999: Generic Statistics Class",
     "section": "Schedule",
-    "text": "Schedule\nHere we use Quarto’s EJS templating.\nFor a style similar to that of Stat 20, modify index.qmd to point to assets/{schedule-alt.ejs,buttons-alt.ejs} and to {schedule-alt.yml,buttons-alt.yml} and _quarto.yml to point to assets/styles-alt.scss.\n\n\n   Week 1\n   \n   \n   \n   \n           \n           Aug 24:\n              Lecture 1 Introduction\n                \n                  Note 1\n                  Note 2\n                \n           \n           \n              Participation 1 Lecture Participation 1\n                \n           \n           \n              Test 1 This is a non-linked test\n                \n           \n           \n           Aug 25:\n              Lab 1 Prerequisite Coding (due Aug 29)\n                \n           \n           \n              Homework 1A Plotting and Permutation Test (due Aug 31)\n                \n           \n           \n              Homework 1B Prerequisite Math (due Aug 31)\n                \n           \n   \n   \n   Week 2\n   \n   \n   \n   \n           \n           Aug 29:\n              Lecture 2 Pandas 1\n                \n           \n           \n              Participation 2 Lecture Participation 2\n                \n                \n           \n   \n   \n\nNo matching items"
+    "text": "Schedule\nHere we use Quarto’s EJS templating.\nFor a style similar to that of Stat 20, modify index.qmd to point to assets/{schedule-alt.ejs,buttons-alt.ejs} and to {schedule-alt.yml,buttons-alt.yml} and _quarto.yml to point to assets/styles-alt.scss.\n\n\n   Week 1\n   \n   \n   \n   \n           \n           Aug 24:\n              Lecture 1 Introduction\n                \n                  Note 1\n                  Note 2\n                \n           \n           \n              Participation 1 Lecture Participation 1\n                \n           \n           \n              Participation 1 This is a non-linked test\n                \n           \n           \n           Aug 25:\n              Lab 1 Prerequisite Coding (due Aug 29)\n                \n           \n           \n              Homework 1A Plotting and Permutation Test (due Aug 31)\n                \n           \n           \n              Homework 1B Prerequisite Math (due Aug 31)\n                \n           \n   \n   \n   Week 2\n   \n   \n   \n   \n           \n           Aug 29:\n              Lecture 2 Pandas 1\n                \n           \n           \n              Participation 2 Lecture Participation 2\n                \n                \n           \n   \n   \n\nNo matching items"
   },
   {
     "objectID": "units/unit1.html",
@@ -39,7 +39,7 @@
     "href": "units/unit1.html#evaluated-python-code-chunk-with-a-plot",
     "title": "Unit 1: Intro",
     "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n0.02257055640404854"
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n-0.0505980973804723"
   },
   {
     "objectID": "units/unit1.html#latex",
@@ -95,7 +95,7 @@
     "href": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
     "title": "Unit 3: More",
     "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n0.05962633010158733"
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n0.03394536799199692"
   },
   {
     "objectID": "units/unit3.html#latex",
