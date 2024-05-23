@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Stat 999</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/berkeley-scf/stat999-quarto" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://github.com/berkeley-scf/course-site-quarto" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
@@ -220,7 +220,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
     </ul>
     </div>
-</nav>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p><a href="./license.html">License</a></p>
+</div></div></nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -291,7 +293,7 @@ Welcome to Week 2
 <section id="schedule" class="level2">
 <h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
 <p>Here we use Quarto’s EJS templating.</p>
-<p>For a style similar to that of <a href="https://stat20.org">Stat 20</a>, modify <code>index.qmd</code> to point to <code>assets/{schedule-alt.ejs,schedule-alt.yml,buttons-alt.ejs,buttons-alt.yml}</code> and <code>_quarto.yml</code> to point to <code>assets/styles-alt.scss</code>.</p>
+<p>For a style similar to that of <a href="https://stat20.org">Stat 20</a>, modify <code>index.qmd</code> to point to <code>assets/{schedule-alt.ejs,buttons-alt.ejs}</code> and to <code>{schedule-alt.yml,buttons-alt.yml}</code> and <code>_quarto.yml</code> to point to <code>assets/styles-alt.scss</code>.</p>
 <div id="listing-schedule" class="quarto-listing quarto-listing-container-custom">
 
    <h4 class="anchored">Week 1</h4>
@@ -300,28 +302,32 @@ Welcome to Week 2
    <!-- data-quarto-disable-processing="true" prevents Quarto processing of tables (https://quarto.org/docs/authoring/tables.html#disabling-quarto-table-processing) -->
    <tbody>
            <tr>
-           <th scope="row" rowspan="2">Aug 24:</th>
-           <td><strong class="label label-Lecture">Lecture 1</strong> <a href="./test.pdf" target="_blank">Introduction</a></td>
+           <th scope="row" rowspan="3">Aug 24:</th>
+              <td><strong class="label label-Lecture">Lecture 1</strong> <a href="./test.pdf" target="_blank">Introduction</a></td>
                 <td>
                   <a href="./units/unit1.html">Note 1</a>
                   <a href="./units/unit1.html">Note 2</a>
                 </td>
            </tr>
            <tr>
-           <td><strong class="label label-Participation">Participation 1</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Lecture Participation 1</a></td>
+              <td><strong class="label label-Participation">Participation 1</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Lecture Participation 1</a></td>
+                <td></td>
+           </tr>
+           <tr>
+              <td><strong class="label label-Test">Test 1</strong> <a>This is a non-linked test</a></td>
                 <td></td>
            </tr>
            <tr>
            <th scope="row" rowspan="3">Aug 25:</th>
-           <td><strong class="label label-Lab">Lab 1</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Prerequisite Coding (due Aug 29)</a></td>
+              <td><strong class="label label-Lab">Lab 1</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Prerequisite Coding (due Aug 29)</a></td>
                 <td></td>
            </tr>
            <tr>
-           <td><strong class="label label-Homework">Homework 1A</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Plotting and Permutation Test (due Aug 31)</a></td>
+              <td><strong class="label label-Homework">Homework 1A</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Plotting and Permutation Test (due Aug 31)</a></td>
                 <td></td>
            </tr>
            <tr>
-           <td><strong class="label label-Homework">Homework 1B</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Prerequisite Math (due Aug 31)</a></td>
+              <td><strong class="label label-Homework">Homework 1B</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Prerequisite Math (due Aug 31)</a></td>
                 <td></td>
            </tr>
    </tbody>
@@ -333,11 +339,11 @@ Welcome to Week 2
    <tbody>
            <tr>
            <th scope="row" rowspan="2">Aug 29:</th>
-           <td><strong class="label label-Lecture">Lecture 2</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Pandas 1</a></td>
+              <td><strong class="label label-Lecture">Lecture 2</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Pandas 1</a></td>
                 <td></td>
            </tr>
            <tr>
-           <td><strong class="label label-Participation">Participation 2</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Lecture Participation 2</a></td>
+              <td><strong class="label label-Participation">Participation 2</strong> <a href="https://ds100.org/fa23/lecture/lec01" target="_blank">Lecture Participation 2</a></td>
                 <td>
                 </td>
            </tr>
